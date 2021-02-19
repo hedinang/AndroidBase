@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "233577359971",
+    "firebase_url": "https://nanobook.firebaseio.com",
+    "project_id": "nanobook",
+    "storage_bucket": "nanobook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233577359971:android:45177df2f05d088e58e656",
+        "android_client_info": {
+          "package_name": "com.nanobook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233577359971-5e1kbulg2a57fchd8e6m93fj8lron04d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nanobook",
+            "certificate_hash": "43e500e3387cdfe9414e20d79fb0a9562c395098"
+          }
+        },
+        {
+          "client_id": "233577359971-itrq99ap6rvo4ffa3m4nui7al875psq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq_v0kG31gSk184WMI5OnjSOa1nOPCupg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233577359971-itrq99ap6rvo4ffa3m4nui7al875psq2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "233577359971-fjp6u8rp4a5m5o2a09lq387rq53fvbvg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nanobook"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

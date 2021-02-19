@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:textColor="@color/text_dark"
+            android:layout_margin="@dimen/margin_lager"
+            android:textSize="@dimen/text_small_size_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_confirm_code"/>
+
+        <com.chaos.view.PinView
+            android:id="@+id/pin_view_confirm_code"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:inputType="number"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_normal_size_18"
+            android:textStyle="bold"
+            android:layout_marginVertical="@dimen/margin_lager"
+            app:cursorColor="@color/text_dark"
+            app:cursorWidth="2dp"
+            app:hideLineWhenFilled="true"
+            app:itemCount="6"
+            app:itemHeight="48dp"
+            app:itemWidth="48dp"
+            app:lineColor="@color/text_dark"
+            app:lineWidth="2dp"
+            app:viewType="line" />
+
+        <TextView
+            android:id="@+id/btn_goto_change_password"
+            android:layout_margin="@dimen/margin_normal"
+            android:gravity="center"
+            android:padding="@dimen/padding_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textColor="@color/text_light"
+            android:background="@drawable/bg_border_solid_blue"
+            android:textSize="@dimen/text_normal_size_16" />
+    </LinearLayout>
+</FrameLayout>

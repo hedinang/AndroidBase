@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nanobookv2.widget.AspectRatioLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/arl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:arl_widthRatioOfParent="0.75"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingPrefix">
+
+        <TextView
+            android:clipToPadding="false"
+            android:id="@+id/tv_book_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/bg_item_home_book"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="3"
+            android:minLines="3"
+            android:padding="@dimen/padding_small"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_small_size_14"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image_book"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_welcome_1" />
+
+            <View
+                android:id="@+id/v_alpha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ff0000" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?bg"
+            android:gravity="center"
+            android:paddingVertical="@dimen/_10sdp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:paddingEnd="@dimen/padding_small"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="?attr/text_color_primary"
+                    android:textSize="@dimen/text_small_size_12"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_audio_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/text_color_sub"
+                    android:textSize="@dimen/text_small_size_12" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btn_add_book"
+                android:layout_width="@dimen/ic_size_16"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" />
+        </LinearLayout>
+    </LinearLayout>
+</com.nanobookv2.widget.AspectRatioLayout>

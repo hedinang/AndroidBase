@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg_root_quote"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_quotes"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/padding_lager"
+    android:paddingVertical="@dimen/padding_huge">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cảm hứng cho bạn"
+        android:textAllCaps="true"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_small_size_12" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="@dimen/text_small_size_12"
+        app:autoSizeMaxTextSize="@dimen/text_huge_size_24"
+        android:gravity="start|center_vertical"
+        android:minLines="4"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:id="@+id/tv_quotes_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="“Nếu bạn không từ bỏ, bạn sẽ luôn có một cơ hội. Từ bỏ là thất bại lớn nhất.”"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_huge_size_24"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv_quotes_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="Jackma"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_normal_size_18"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/margin_lager">
+
+        <TextView
+            android:id="@+id/btn_read_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đọc sách"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_small_size_12" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@color/text_dark"
+            android:paddingVertical="@dimen/padding_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share trích đoạn"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_small_size_12" />
+    </LinearLayout>
+</LinearLayout>

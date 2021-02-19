@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.nanobookv2.widget.AspectRatioLayout
+        android:id="@+id/arl_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_book_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:paddingStart="@dimen/padding_huge"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_lager_size_24"
+            android:textStyle="bold"/>
+    </com.nanobookv2.widget.AspectRatioLayout>
+
+    <com.nanobookv2.widget.AspectRatioImageView
+        app:aspectRatioEnabled="true"
+        app:aspectRatio="0.5"
+        android:layout_width="@dimen/_165sdp"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_gravity="end|center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_campaign" />
+</FrameLayout>

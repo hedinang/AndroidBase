@@ -1,0 +1,101 @@
+<resources>
+    // common
+    <string name="app_name">nano book</string>
+    <string name="reading">Đọc</string>
+    <string name="listening">Nghe</string>
+    <string name="listen_to">Nghe</string>
+    <string name="library">Thư viện</string>
+    <string name="account">Tài khoản</string>
+    <string name="confirm">Xác thực</string>
+    <string name="ok">Đồng ý</string>
+    <string name="try_again">Thử lại</string>
+    <string name="cancel">Huỷ bỏ</string>
+    <string name="next">Tiếp tục</string>
+    <string name="end"> - Hết - </string>
+    <string name="hint_search">Tìm kiếm tên sách, tác giả hoặc chủ đề</string>
+    <string name="filter">Bộ lọc</string>
+    <string name="newest">Mới nhất</string>
+    <string name="disconnected">Mất kết nối</string>
+    <string name="connected">Đã kết nối lại !!!</string>
+    <string name="add_bookcases">Thêm vào tủ sách</string>
+    <string name="service_rules">Bằng cách tiếp tục, bạn cho biết rằng bạn đã đọc và đồng ý với <b>Điều Khoản Dịch Vụ</b> của chúng tôi.</string>
+    <string name="service_rules_link">https://www.nanobook.vn/useragreement</string>
+    <!--  Welcome Screen  -->
+    <string name="sign_up">Đăng Ký</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="book_summary">Tóm tắt sách</string>
+    <string name="book_summary_content">Hơn 500 tóm tắt của những quyển \nsách nổi tiếng nhất thế giới</string>
+    <string name="audiobook">Nhạc tư duy</string>
+    <string name="audiobook_content">Hơn 500 audio book độc quyền, chất lượng cao, cập nhật mỗi tuần</string>
+    <string name="share">Chia sẻ</string>
+    <string name="share_content">Giới thiệu đến bạn bè thông qua mạng xã hội các tựa sách mà bạn tâm đắc nhất</string>
+
+    <!--  Option Sign Up Screen  -->
+    <string name="account_sign_up">Đăng ký tài khoản</string>
+    <string name="account_sign_up_content">Tạo tài khoản để bắt đầu khám phá những \ntóm tắt sách hay nhất thế giới</string>
+    <string name="sign_up_by_email">Đăng ký bằng Email</string>
+    <string name="sign_up_by_fb">Đăng ký với Facebook</string>
+    <string name="sign_up_by_google">Đăng ký với Google</string>
+    <string name="sign_up_by_apple">Đăng ký với Apple</string>
+    <string name="login_by_email">Đăng nhập bằng Email</string>
+    <string name="login_by_facebook">Đăng nhập với Apple</string>
+    <string name="login_by_google">Đăng nhập với Apple</string>
+    <string name="login_by_apple">Đăng nhập với Apple</string>
+    <string name="suggestion_login">Đã có tài khoản?           <b>ĐĂNG NHẬP</b></string>
+
+    <!--    Auth Screen -->
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="password_confirm">Nhập lại mật khẩu</string>
+    <string name="password_forget">Quên mật khẩu</string>
+    <string name="or_sign_up_by">- Hoặc đăng ký bằng -</string>
+    <string name="or_login_by">- Hoặc đăng nhập bằng -</string>
+    <string name="or">- Hoặc -</string>
+    <!--  Login In Screen  -->
+    <string name="suggestion_sign_up">Chưa có tài khoản?           <b>ĐĂNG KÝ</b></string>
+    <!--    Forget Screen-->
+    <string name="content_confirm_email">Nhập email đã được dùng để đăng ký</string>
+    <string name="content_confirm_code">Nhập mã code vừa được gửi đến email</string>
+    <string name="content_confirm_new_password">Nhập mật khẩu mới</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="content_input_valid_an_email">(!) Điền 1 email hợp lệ</string>
+    <!--    Main Screen-->
+    <string name="see_more">Xem thêm</string>
+    <string name="explore">Khám phá</string>
+    <string name="category">Chuyên mục</string>
+    <string name="nano_select">Nanobook chọn</string>
+    <string name="new_book">Sách mới</string>
+    <string name="new_book_content">Cập nhật sách mới trong ngày</string>
+    <string name="trend_book">Sách ưu thích</string>
+    <string name="trend_book_content">Nhứng quyển sách đang được ưa thích nhất</string>
+    <string name="daily_book">Sách hay trong ngày</string>
+    <string name="daily_book_content">Những quyển sách nổi bật trong ngày</string>
+    <string name="select_book">Chuyên gia tuyển chọn</string>
+    <string name="select_book_content">Sách tiêu biểu tuyển chọn bởi biên tập</string>
+    <!--    Sale Push Dialog-->
+
+    <!--    Message validate-->
+    <string name="message_email_empty">Bạn chưa nhập email</string>
+    <string name="message_email_invalid">Email không hợp lệ</string>
+    <string name="message_email_length_error">Email phải từ 6 đến 200 ký tự</string>
+    <string name="message_password_empty">Bạn chưa nhập mật khẩu</string>
+    <string name="message_password_length_error">Hãy nhập mật khẩu từ 4\-\20 ký tự</string>
+    <string name="message_confirm_password_empty">Bạn chưa nhập xác nhận mật khẩu</string>
+    <string name="message_confirm_password_error">Xác nhận mật khẩu không đúng</string>
+    <string name="message_sign_up_google_error">Đăng ký bằng google thất bại</string>
+    <string name="message_code_empty">Bạn chưa nhập code</string>
+    <string name="message_code_error">Code phải gồm 6 ký tự</string>
+
+    <!--overview screen-->
+    <string name="you_leaning_from_book">Bạn sẽ học được gì</string>
+    <!--    Network Exception-->
+    <string name="message_timeout">Time Out! Please Try Again!!</string>
+    <string name="message_network_invalid">Kiểm tra lại kết nối, sau đó thử lại!!</string>
+
+    <!-- FACEBOOK APP ID -->
+    <string name="facebook_app_id">3317994024986469</string>
+    <string name="fb_login_protocol_scheme">fb452972995040143</string>
+
+    <!-- Verify password -->
+    <string name="message_change_password_successfully">Thay đổi mật khẩu thành công</string>
+</resources>

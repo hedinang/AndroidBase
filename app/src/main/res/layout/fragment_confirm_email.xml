@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_lager"
+            android:text="@string/content_confirm_email"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_small_size_14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/margin_lager"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <EditText
+                android:id="@+id/edit_confirm_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@android:color/transparent"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/text_dark_hint"
+                android:textColor="@color/text_dark"
+                android:textCursorDrawable="@drawable/edittext_cursor_dark"
+                android:textSize="@dimen/text_normal_size_16" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/shadow" />
+
+            <TextView
+                android:visibility="invisible"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_small_size_14"
+                android:text="@string/content_input_valid_an_email"
+                android:id="@+id/tv_error_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_goto_confirm_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@drawable/bg_border_solid_blue"
+            android:gravity="center"
+            android:padding="@dimen/padding_normal"
+            android:text="@string/next"
+            android:textColor="@color/text_light"
+            android:textSize="@dimen/text_normal_size_16" />
+
+    </LinearLayout>
+</RelativeLayout>

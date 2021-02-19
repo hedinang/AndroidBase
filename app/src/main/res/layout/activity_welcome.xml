@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/welcome_circle_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:visibility="visible"
+        app:ci_drawable="@drawable/dot_black"
+        app:ci_drawable_unselected="@drawable/dot_grey" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".ui.activity.WelcomeActivity"
+        tools:ignore="MissingPrefix">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/llButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_lager">
+
+            <TextView
+                android:id="@+id/btn_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_border_solid_blue"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/sign_up"
+                android:textAllCaps="false"
+                android:textColor="@color/text_light"
+                android:textSize="@dimen/text_normal_size_18" />
+
+            <TextView
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/text_normal_size_18" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+

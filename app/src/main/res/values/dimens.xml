@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    text size   -->
+    <dimen name="text_huge_size_40">40sp</dimen>
+    <dimen name="text_huge_size_28">28sp</dimen>
+    <dimen name="text_huge_size_24">24sp</dimen>
+    <dimen name="text_lager_size_24">24sp</dimen>
+    <dimen name="text_lager_size_20">20sp</dimen>
+    <dimen name="text_normal_size_18">18sp</dimen>
+    <dimen name="text_normal_size_16">16sp</dimen>
+    <dimen name="text_normal_size_15">15sp</dimen>
+    <dimen name="text_small_size_14">14sp</dimen>
+    <dimen name="text_small_size_12">12sp</dimen>
+    <dimen name="padding_small">@dimen/_5sdp</dimen>
+    <dimen name="padding_normal">@dimen/_10sdp</dimen>
+    <dimen name="padding_lager">@dimen/_16sdp</dimen>
+    <dimen name="padding_medium">@dimen/_20sdp</dimen>
+    <dimen name="padding_huge">@dimen/_30sdp</dimen>
+    <dimen name="margin_normal">@dimen/_10sdp</dimen>
+    <dimen name="margin_medium">@dimen/_15sdp</dimen>
+    <dimen name="margin_lager">@dimen/_20sdp</dimen>
+
+    <dimen name="welcome_height_image">@dimen/_192sdp</dimen>
+    <dimen name="welcome_image_size_margin">@dimen/_206sdp</dimen>
+    <dimen name="welcome_image_size">@dimen/_180sdp</dimen>
+
+    <dimen name="ic_size_8">8dp</dimen>
+    <dimen name="ic_size_16">16dp</dimen>
+    <dimen name="ic_size_20">20dp</dimen>
+    <dimen name="ic_size_24">24dp</dimen>
+    <dimen name="ic_size_32">32dp</dimen>
+    <dimen name="ic_size_48">48dp</dimen>
+    <dimen name="ic_size_64">64dp</dimen>
+    <dimen name="ic_size_72">72dp</dimen>
+    <dimen name="bottom_menu_height">@dimen/_48sdp</dimen>
+
+    <!-- elevator -->
+
+    <dimen name="elevator_nav_drawer">@dimen/_16sdp</dimen>
+    <dimen name="elevator_app_bar">@dimen/_4sdp</dimen>
+    <dimen name="elevator_card_1">@dimen/_1sdp</dimen>
+    <dimen name="elevator_card_2">@dimen/_2sdp</dimen>
+    <dimen name="elevator_card_3">@dimen/_3sdp</dimen>
+    <dimen name="elevator_card_4">@dimen/_4sdp</dimen>
+    <dimen name="elevator_card_5">@dimen/_5sdp</dimen>
+    <dimen name="elevator_card_6">@dimen/_6sdp</dimen>
+    <dimen name="elevator_card_7">@dimen/_7sdp</dimen>
+    <dimen name="elevator_card_8">@dimen/_8sdp</dimen>
+    <dimen name="elevator_fab">@dimen/_6sdp</dimen>
+    <dimen name="elevator_button_2">@dimen/_2sdp</dimen>
+    <dimen name="elevator_button_3">@dimen/_3sdp</dimen>
+    <dimen name="elevator_button_4">@dimen/_4sdp</dimen>
+    <dimen name="elevator_button_5">@dimen/_5sdp</dimen>
+    <dimen name="elevator_button_6">@dimen/_6sdp</dimen>
+    <dimen name="elevator_button_7">@dimen/_7sdp</dimen>
+    <dimen name="elevator_button_8">@dimen/_8sdp</dimen>
+    <dimen name="elevator_dialog">@dimen/_24sdp</dimen>
+
+</resources>

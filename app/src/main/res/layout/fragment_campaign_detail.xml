@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/fcd_root">
+
+    <com.nanobookv2.widget.AspectRatioLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:arl_widthRatio="2"
+        app:arl_heightRatio="1">
+
+        <com.nanobookv2.widget.AspectRatioLayout
+            android:background="@android:color/holo_red_dark"
+            android:id="@+id/arl_header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:arl_heightRatio="0.75"
+            app:arl_widthRatio="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="@dimen/padding_normal">
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    android:layout_width="?actionBarSize"
+                    android:layout_height="?actionBarSize"
+                    android:padding="@dimen/_14sdp"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:id="@+id/tv_campaign_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/text_dark"
+                    android:textSize="@dimen/text_lager_size_20"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="?actionBarSize"
+                    android:layout_height="?actionBarSize" />
+            </LinearLayout>
+        </com.nanobookv2.widget.AspectRatioLayout>
+        <com.nanobookv2.widget.AspectRatioLayout
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:arl_widthRatioOfParent="0.5"
+            app:arl_heightRatio="1"
+            app:arl_widthRatio="2">
+            <com.nanobookv2.widget.AspectRatioImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_campaign" />
+        </com.nanobookv2.widget.AspectRatioLayout>
+    </com.nanobookv2.widget.AspectRatioLayout>
+    <TextView
+        android:layout_marginVertical="@dimen/margin_normal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_small_size_14"
+        android:text="Những đầu sách kinh điển từ chủ đề tâm lý học đến tài chính mà bạn không thể bỏ quaTypography"
+        android:layout_marginHorizontal="@dimen/margin_lager"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginHorizontal="@dimen/margin_lager"
+        android:background="@color/colorPrimary"/>
+    <com.nanobookv2.widget.ObservableScrollView
+        android:id="@+id/fcd_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:focusable="false"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+        <androidx.recyclerview.widget.RecyclerView
+            android:padding="@dimen/padding_normal"
+            android:id="@+id/rcv_book_campaign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_book_more"/>
+    </com.nanobookv2.widget.ObservableScrollView>
+
+</LinearLayout>

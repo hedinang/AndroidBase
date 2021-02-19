@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.onikx:pagedtextview:0.1.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9db51a995d22ec42e47be839762f43c0/jetified-pagedtextview-0.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9db51a995d22ec42e47be839762f43c0/jetified-pagedtextview-0.1.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.onikx/pagedtextview/0.1.3/3bf31daf2b14ef40d30778186336f32a21931823/pagedtextview-0.1.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.onikx/pagedtextview/0.1.3/36c9a203207a46181a3a23f96c9f1a44c60c3cb2/pagedtextview-0.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

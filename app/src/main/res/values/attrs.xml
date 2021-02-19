@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AspectRatioLayout">
+        <attr name="arl_widthRatioOfParent" format="float" />
+        <attr name="arl_widthRatio" format="float" />
+        <attr name="arl_heightRatio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="AspectRatioImageView">
+        <attr name="aspectRatio" format="float" />
+        <attr name="radius" format="dimension" />
+        <attr name="aspectRatioEnabled" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ShadowLayout">
+        <attr name="sl_shadowed" format="boolean"/>
+        <attr name="sl_shadow_distance" format="dimension"/>
+        <attr name="sl_shadow_angle" format="integer"/>
+        <attr name="sl_shadow_radius" format="dimension"/>
+        <attr name="sl_shadow_color" format="color"/>
+    </declare-styleable>
+    <attr name="header_color1" format="color"/>
+    <attr name="header_color2" format="color"/>
+    <attr name="text_color_primary" format="color"/>
+    <attr name="text_color_sub" format="color"/>
+    <attr name="see_more_color" format="color"/>
+    <attr name="ic_solid_book_mark" format="reference"/>
+    <attr name="ic_empty_book_mark" format="reference"/>
+    <attr name="bg" format="reference"/>
+    <attr name="font_normal" format="reference"/>
+    <attr name="font_bold" format="reference"/>
+</resources>

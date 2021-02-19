@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fcd_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_margin="@dimen/padding_normal"
+        android:elevation="@dimen/elevator_app_bar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edit_search"
+            android:paddingVertical="@dimen/margin_normal">
+
+            <EditText
+                android:id="@+id/edit_search"
+                android:hint="@string/hint_search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:paddingHorizontal="@dimen/padding_huge" />
+
+            <ImageView
+                android:layout_width="@dimen/ic_size_24"
+                android:layout_height="@dimen/ic_size_24"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginHorizontal="@dimen/margin_normal"
+                android:src="@drawable/ic_search" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/margin_normal"
+            android:gravity="center_vertical"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:text="@string/cancel"
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_small_size_12"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+    <com.nanobookv2.widget.ObservableScrollView
+        android:id="@+id/fs_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:focusable="false"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_book_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_normal"
+            tools:listitem="@layout/item_book_more" />
+    </com.nanobookv2.widget.ObservableScrollView>
+
+</LinearLayout>

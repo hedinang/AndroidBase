@@ -1,0 +1,50 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeStatusBarWhite" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/scale_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_out</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowMinWidthMajor">97%</item>
+        <item name="android:windowMinWidthMinor">97%</item>
+    </style>
+
+    <!-- Confirm email -->
+    <style name="ConfirmEmailEditTextStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColorHint">@color/text_dark_hint</item>
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor_dark</item>
+        <item name="android:textSize">@dimen/text_normal_size_16</item>
+    </style>
+
+    <style name="ConfirmEmailIconHintPasswordStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:src">@drawable/ic_eye_hint_password</item>
+    </style>
+
+    <style name="ConfirmEmailDividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@color/text_dark_hint</item>
+    </style>
+</resources>

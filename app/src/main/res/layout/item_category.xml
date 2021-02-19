@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_category">
+    <TextView
+        android:layout_centerInParent="true"
+        android:padding="@dimen/padding_normal"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:minLines="2"
+        android:maxWidth="@dimen/_120sdp"
+        android:gravity="center"
+        android:id="@+id/tv_book_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_dark_gray_category"
+        android:textSize="@dimen/text_small_size_14" />
+</RelativeLayout>
