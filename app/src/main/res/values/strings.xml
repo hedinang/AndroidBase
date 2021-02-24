@@ -1,4 +1,5 @@
 <resources>
+    <string name="submit">float button</string>
     // common
     <string name="app_name">nano book</string>
     <string name="reading">Đọc</string>
