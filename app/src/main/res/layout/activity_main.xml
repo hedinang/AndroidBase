@@ -13,7 +13,7 @@
             layout="@layout/layout_indicator_network"
             android:animateLayoutChanges="true" />
 
-        <com.nanobookv2.widget.ViewPagerSwipe
+        <com.fashion.widget.ViewPagerSwipe
             android:id="@+id/view_pager_main"
             android:layout_width="match_parent"
             android:layout_height="0dp"

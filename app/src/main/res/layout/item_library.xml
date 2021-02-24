@@ -18,7 +18,7 @@
         android:layout_weight="1"
         app:cardCornerRadius="@dimen/_4sdp">
 
-        <com.nanobookv2.widget.AspectRatioImageView
+        <com.fashion.widget.AspectRatioImageView
             android:id="@+id/image_book"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -28,7 +28,7 @@
             app:aspectRatioEnabled="true"
             app:cardCornerRadius="@dimen/_4sdp" />
 
-        <com.nanobookv2.widget.AspectRatioImageView
+        <com.fashion.widget.AspectRatioImageView
             android:id="@+id/v_alpha"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

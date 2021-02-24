@@ -52,7 +52,7 @@
         android:layout_height="2dp"
         android:layout_marginHorizontal="@dimen/margin_lager"
         android:background="@color/colorPrimary"/>
-    <com.nanobookv2.widget.ObservableScrollView
+    <com.fashion.widget.ObservableScrollView
         android:id="@+id/fbc_scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -66,5 +66,5 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:listitem="@layout/item_book_more"/>
-    </com.nanobookv2.widget.ObservableScrollView>
+    </com.fashion.widget.ObservableScrollView>
 </LinearLayout>

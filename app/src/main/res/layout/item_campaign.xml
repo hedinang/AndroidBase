@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.nanobookv2.widget.AspectRatioLayout
+    <com.fashion.widget.AspectRatioLayout
         android:id="@+id/arl_layout"
         android:layout_width="0dp"
         android:layout_height="match_parent">
@@ -20,9 +20,9 @@
             android:textColor="@color/text_dark"
             android:textSize="@dimen/text_lager_size_24"
             android:textStyle="bold"/>
-    </com.nanobookv2.widget.AspectRatioLayout>
+    </com.fashion.widget.AspectRatioLayout>
 
-    <com.nanobookv2.widget.AspectRatioImageView
+    <com.fashion.widget.AspectRatioImageView
         app:aspectRatioEnabled="true"
         app:aspectRatio="0.5"
         android:layout_width="@dimen/_165sdp"

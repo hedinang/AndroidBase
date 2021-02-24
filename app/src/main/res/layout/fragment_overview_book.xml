@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.nanobookv2.widget.AspectRatioImageView
+                <com.fashion.widget.AspectRatioImageView
                     android:id="@+id/img_book"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
                     app:aspectRatioEnabled="true"
                     app:layout_collapseMode="parallax" />
 
-                <com.nanobookv2.widget.AspectRatioImageView
+                <com.fashion.widget.AspectRatioImageView
                     android:id="@+id/iv_alpha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

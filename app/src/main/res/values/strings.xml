@@ -11,14 +11,16 @@
     <string name="try_again">Thử lại</string>
     <string name="cancel">Huỷ bỏ</string>
     <string name="next">Tiếp tục</string>
-    <string name="end"> - Hết - </string>
+    <string name="end">- Hết -</string>
     <string name="hint_search">Tìm kiếm tên sách, tác giả hoặc chủ đề</string>
     <string name="filter">Bộ lọc</string>
     <string name="newest">Mới nhất</string>
     <string name="disconnected">Mất kết nối</string>
     <string name="connected">Đã kết nối lại !!!</string>
     <string name="add_bookcases">Thêm vào tủ sách</string>
-    <string name="service_rules">Bằng cách tiếp tục, bạn cho biết rằng bạn đã đọc và đồng ý với <b>Điều Khoản Dịch Vụ</b> của chúng tôi.</string>
+    <string name="service_rules">Bằng cách tiếp tục, bạn cho biết rằng bạn đã đọc và đồng ý với <b>Điều Khoản Dịch Vụ
+    </b> của chúng tôi.
+    </string>
     <string name="service_rules_link">https://www.nanobook.vn/useragreement</string>
     <!--  Welcome Screen  -->
     <string name="sign_up">Đăng Ký</string>
@@ -32,7 +34,8 @@
 
     <!--  Option Sign Up Screen  -->
     <string name="account_sign_up">Đăng ký tài khoản</string>
-    <string name="account_sign_up_content">Tạo tài khoản để bắt đầu khám phá những \ntóm tắt sách hay nhất thế giới</string>
+    <string name="account_sign_up_content">Tạo tài khoản để bắt đầu khám phá những \ntóm tắt sách hay nhất thế giới
+    </string>
     <string name="sign_up_by_email">Đăng ký bằng Email</string>
     <string name="sign_up_by_fb">Đăng ký với Facebook</string>
     <string name="sign_up_by_google">Đăng ký với Google</string>
@@ -41,7 +44,9 @@
     <string name="login_by_facebook">Đăng nhập với Apple</string>
     <string name="login_by_google">Đăng nhập với Apple</string>
     <string name="login_by_apple">Đăng nhập với Apple</string>
-    <string name="suggestion_login">Đã có tài khoản?           <b>ĐĂNG NHẬP</b></string>
+    <string name="suggestion_login">Đã có tài khoản?
+        <b>ĐĂNG NHẬP</b>
+    </string>
 
     <!--    Auth Screen -->
     <string name="email">Email</string>
@@ -52,7 +57,9 @@
     <string name="or_login_by">- Hoặc đăng nhập bằng -</string>
     <string name="or">- Hoặc -</string>
     <!--  Login In Screen  -->
-    <string name="suggestion_sign_up">Chưa có tài khoản?           <b>ĐĂNG KÝ</b></string>
+    <string name="suggestion_sign_up">Chưa có tài khoản?
+        <b>ĐĂNG KÝ</b>
+    </string>
     <!--    Forget Screen-->
     <string name="content_confirm_email">Nhập email đã được dùng để đăng ký</string>
     <string name="content_confirm_code">Nhập mã code vừa được gửi đến email</string>

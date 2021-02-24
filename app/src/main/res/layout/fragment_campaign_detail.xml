@@ -8,13 +8,13 @@
     android:background="@color/white"
     android:id="@+id/fcd_root">
 
-    <com.nanobookv2.widget.AspectRatioLayout
+    <com.fashion.widget.AspectRatioLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:arl_widthRatio="2"
         app:arl_heightRatio="1">
 
-        <com.nanobookv2.widget.AspectRatioLayout
+        <com.fashion.widget.AspectRatioLayout
             android:background="@android:color/holo_red_dark"
             android:id="@+id/arl_header"
             android:layout_width="match_parent"
@@ -50,21 +50,21 @@
                     android:layout_width="?actionBarSize"
                     android:layout_height="?actionBarSize" />
             </LinearLayout>
-        </com.nanobookv2.widget.AspectRatioLayout>
-        <com.nanobookv2.widget.AspectRatioLayout
+        </com.fashion.widget.AspectRatioLayout>
+        <com.fashion.widget.AspectRatioLayout
             android:layout_gravity="bottom|center_horizontal"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:arl_widthRatioOfParent="0.5"
             app:arl_heightRatio="1"
             app:arl_widthRatio="2">
-            <com.nanobookv2.widget.AspectRatioImageView
+            <com.fashion.widget.AspectRatioImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/img_campaign" />
-        </com.nanobookv2.widget.AspectRatioLayout>
-    </com.nanobookv2.widget.AspectRatioLayout>
+        </com.fashion.widget.AspectRatioLayout>
+    </com.fashion.widget.AspectRatioLayout>
     <TextView
         android:layout_marginVertical="@dimen/margin_normal"
         android:gravity="center_horizontal"
@@ -79,7 +79,7 @@
         android:layout_height="2dp"
         android:layout_marginHorizontal="@dimen/margin_lager"
         android:background="@color/colorPrimary"/>
-    <com.nanobookv2.widget.ObservableScrollView
+    <com.fashion.widget.ObservableScrollView
         android:id="@+id/fcd_scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -93,6 +93,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:listitem="@layout/item_book_more"/>
-    </com.nanobookv2.widget.ObservableScrollView>
+    </com.fashion.widget.ObservableScrollView>
 
 </LinearLayout>

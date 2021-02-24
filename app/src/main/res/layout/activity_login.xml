@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.fashion.ui.activity.LoginActivity">
+    <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_login"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:textStyle="bold"
+                        android:textColor="#1F511F"
+                        android:textSize="@dimen/_20sdp"
+                        android:gravity="center"
+                        android:layout_gravity="bottom|center"
+                        android:text="Đăng nhập"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <EditText
+                        android:id="@+id/username"
+                        android:textColor="#1F511F"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_14sdp"
+                        android:hint="Tên đăng nhập"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <EditText
+                        android:id="@+id/password"
+                        android:inputType="textPassword"
+                        android:textSize="@dimen/_14sdp"
+                        android:textColor="#1F511F"
+                        android:hint="Mật khẩu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <Button
+                        android:id="@+id/btn_login"
+                        android:background="@drawable/cricle_corner"
+                        android:text="Đăng nhập"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:textStyle="italic|bold"
+
+                        android:id="@+id/forget_password"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:layout_alignParentStart="true"
+                        android:textColor="#1F511F"
+                        android:text="Quên mật khẩu?"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:textStyle="italic|bold"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:id="@+id/create_account"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="#1F511F"
+                        android:text="Tạo tài khoản"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                        android:src="@drawable/ic_baseline_code_24"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_32sdp"/>
+                <ImageView
+                        android:src="@drawable/ic_baseline_adjust_24"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_32sdp"/>
+                <ImageView
+                        android:src="@drawable/ic_baseline_menu_24"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_32sdp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

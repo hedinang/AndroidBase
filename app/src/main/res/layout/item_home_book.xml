@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.nanobookv2.widget.AspectRatioLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/arl_layout"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:arl_widthRatioOfParent="0.75"
-    tools:ignore="ContentDescription">
+<com.fashion.widget.AspectRatioLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                                      xmlns:tools="http://schemas.android.com/tools"
+                                      android:id="@+id/arl_layout"
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      app:arl_widthRatioOfParent="0.75"
+                                      tools:ignore="ContentDescription">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -89,4 +89,4 @@
                 android:layout_gravity="top" />
         </LinearLayout>
     </LinearLayout>
-</com.nanobookv2.widget.AspectRatioLayout>
+</com.fashion.widget.AspectRatioLayout>
