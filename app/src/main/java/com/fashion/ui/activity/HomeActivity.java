@@ -10,15 +10,24 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class HomeActivity extends AppCompatActivity {
 
+    public Boolean slide = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        LinearLayout linearLayout  = findViewById(R.id.viewB);
-        fab.setOnClickListener(v -> {
-            linearLayout.setVisibility(View.GONE);
-        });
+//        FloatingActionButton fab = findViewById(R.id.fab);
+//        LinearLayout linearLayout = findViewById(R.id.viewB);
+//
+//        fab.setOnClickListener(v -> {
+//            if (slide == false) {
+//                linearLayout.setVisibility(View.GONE);
+//                slide = true;
+//            } else {
+//                linearLayout.setVisibility(View.INVISIBLE);
+//                slide = false;
+//            }
+//        });
     }
 
 }

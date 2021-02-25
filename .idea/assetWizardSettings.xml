@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/home/dung/Software/intellij/plugins/android/lib/android.jar!/images/material/icons/materialicons/adjust/baseline_adjust_24.xml" />
+                                      <entry key="url" value="jar:file:/home/dung/Software/intellij/plugins/android/lib/android.jar!/images/material/icons/materialicons/extension/baseline_extension_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="f6b110" />
-                            <entry key="outputName" value="ic_baseline_adjust_24" />
+                            <entry key="color" value="0a0a0a" />
+                            <entry key="outputName" value="ic_baseline_extension_24" />
                           </map>
                         </option>
                       </PersistentState>

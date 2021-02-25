@@ -21,7 +21,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion '30.0.3'
+    buildToolsVersion '30.0.2'
 }
 
 dependencies {
@@ -74,8 +74,5 @@ dependencies {
     // login sso social
     implementation 'com.facebook.android:facebook-login:4.42.0'
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
-
-
-
 
 }

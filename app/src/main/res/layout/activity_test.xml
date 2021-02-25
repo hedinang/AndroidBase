@@ -1,26 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-    <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+            android:layout_width="match_parent" android:layout_height="wrap_content">
         <LinearLayout
-                android:layout_weight="1"
-                android:background="@color/white"
-                android:layout_width="match_parent" android:layout_height="wrap_content">
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <com.fashion.widget.AspectRatioLayout
+                    app:arl_heightRatio="1"
+                    app:arl_widthRatio="2"
+                    android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/background_login"/>
+                <LinearLayout
+                        android:paddingVertical="@dimen/_40sdp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:paddingTop="@dimen/_2sdp"
+                            android:gravity="center"
+                            android:text="Xin chào"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:paddingTop="@dimen/_2sdp"
+                            android:gravity="center"
+                            android:text="Tran Tri Dung"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:paddingTop="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:text="Xem tài khoản"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </com.fashion.widget.AspectRatioLayout>
 
+            <LinearLayout
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout
+
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:layout_alignParentStart="true"
+                            android:text="Tính năng chính"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:layout_alignParentEnd="true"
+                            android:text="Tùy chỉnh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp"
+                                   android:src="@drawable/ic_account"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:textStyle="bold"
+                                  android:text="Chuyen tien "/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp"
+                                   android:src="@drawable/ic_account"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:textStyle="bold"
+                                  android:text="Chuyen tien "/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp"
+                                   android:src="@drawable/ic_account"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:textStyle="bold"
+                                  android:text="Chuyen tien "/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_marginVertical="@dimen/_20sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp"
+                                   android:src="@drawable/ic_account"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:textStyle="bold"
+                                  android:text="Chuyen tien "/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp"
+                                   android:src="@drawable/ic_account"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:textStyle="bold"
+                                  android:text="Chuyen tien "/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_width="0dp" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp"
+                                   android:src="@drawable/ic_account"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                  android:textStyle="bold"
+                                  android:text="Chuyen tien "/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:layout_alignParentStart="true"
+                            android:text="Khuyến mãi cho bạn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:textStyle="bold"
+                            android:layout_alignParentEnd="true"
+                            android:text="XEM THÊM"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </RelativeLayout>
+
+                <com.fashion.widget.AspectRatioImageView
+                        android:id="@+id/ariv_discount"
+                        android:scaleType="fitXY"
+                        android:layout_width="match_parent"
+                        app:aspectRatio="0.7"
+                        app:aspectRatioEnabled="true"
+                        android:layout_height="233dp"
+                        android:src="@drawable/discount"
+                />
+            </LinearLayout>
         </LinearLayout>
-        <LinearLayout
-                android:layout_weight="2"
-                android:background="@color/black"
-                android:layout_width="match_parent" android:layout_height="wrap_content">
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_alignParentBottom="true"
+            app:labelVisibilityMode="labeled"
+            android:id="@+id/bvn_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:itemBackground="@color/white"
+            app:itemIconTint="@android:color/black"
+            app:itemTextColor="@android:color/black"
+            app:menu="@menu/nav_menu"/>
+</RelativeLayout>
 
-        </LinearLayout>
-    </LinearLayout>
 
 
-</FrameLayout>
+
